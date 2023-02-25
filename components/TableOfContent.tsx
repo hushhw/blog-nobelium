@@ -76,7 +76,7 @@ const TableOfContent: FC<{
       >
         <h3 className='uppercase text-black dark:text-white text-lg whitespace-nowrap my-1 font-light flex items-center gap-1'>
           <RiListCheck />
-          Contents
+          Table of Content
         </h3>
         <nav className='max-h-[500px] overflow-y-auto scrollbar-thin'>
           {tableOfContent.map(({ id, indentLevel, text }) => (

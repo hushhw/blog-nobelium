@@ -166,7 +166,7 @@ const Layout: React.FC<LayoutProps> = ({
             </div>
           )}
         </article>
-        {frontMatter.type !== 'Page' && (
+        {frontMatter.type !== 'Page' && BLOG.showContent && (
           <aside className='md:flex md:ml-4 sticky md:flex-col md:items-center md:top-36 md:self-start md:flex-auto hidden'>
             {tableOfContent.length > 0 && (
               <TableOfContent

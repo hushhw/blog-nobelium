@@ -1,19 +1,19 @@
 const BLOG = {
-  title: '信鑫 Blog',
-  author: 'ycjcl868',
+  title: '九个远方',
+  author: 'hushhw',
   authorAvatar: '/avatar.jpeg',
-  email: 'chaolinjin@gmail.com',
-  defaultImageHost: 'images.rustc.cloud',
-  link: 'https://www.rustc.cloud',
-  description: '写写文章的地方',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  email: 'hushhw123@gmail.com',
+  defaultImageHost: '',
+  link: 'https://blog.hushhw.cn',
+  description: '在这薄情的世界，依然深情地活着。',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   dateFormat: 'YYYY-MM-DD',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2015, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   showAbout: true,
@@ -22,7 +22,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ycjcl',
   seo: {
-    keywords: ['Blog', 'Website', '信鑫', 'ycjcl868', '博客'],
+    keywords: ['Blog', 'Website', 'hushhw','notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   isPreviewImageSupportEnabled: process.env.IS_PREVIEW_IMAGE,
@@ -36,10 +36,10 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'G-QNHPPR60EZ' // e.g: G-XXXXXXXXXX
+      measurementId: '' // e.g: G-XXXXXXXXXX
     },
     cnzzConfig: {
-      id: '1279745642'
+      id: ''
     }
   },
   comment: {
@@ -59,7 +59,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: 'f099af17-208a-4dce-805a-1afcab66c7b1', // data-app-id
+      appId: '7ece9d47-8760-4db6-bc39-4adfb50ce93a', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.umd.js', // change this if you're using self-hosted version
       autoApproval: true // auto approval comments
